@@ -17,9 +17,8 @@ def gmaps_from_address(address, gmaps):
     for i in range(len(gplaces)):
         try:
             country = gplaces[i]['address_components'][-2]['short_name']  
-            if country == 'FR':
-                result = str(gplaces[i]['geometry']['location']['lat']) + ',' + str(gplaces[i]['geometry']['location']['lng'])
-                break
+            result = str(gplaces[i]['geometry']['location']['lat']) + ',' + str(gplaces[i]['geometry']['location']['lng'])
+            #break
         except:
             pass
 
