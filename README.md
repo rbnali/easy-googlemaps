@@ -1,6 +1,6 @@
 # easy-googlemaps
 
-An easy to use Python script to get latitude and longitude coordinates from addresses using Google Maps API.
+An easy to use Python script to get latitude and longitude coordinates from a CSV file with addresses using Google Maps API.
 
 # Requirements
 
