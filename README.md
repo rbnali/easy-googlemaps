@@ -14,11 +14,12 @@ pip install -r requirements.txt
 
 # Arguments
 
-  -f FILE         Path to your CSV file with ; delimiters
-  -c ADDRESS_COL  List of column elements to build the address. Ideally in the
-                  following order: street, zip, city, country.
-  -api API_KEY    Your GOOGLE MAPS API KEY
-  -o OUTPUT       Name of the CSV file in output
+Argument        | Help
+-------------   | -------------
+-f FILE         | Path to your CSV file with ; delimiters
+-c ADDRESS_COL  | List of column elements to build the address. Ideally in the following order: street, zip, city, country.
+-api API_KEY    | Your GOOGLE MAPS API KEY
+-o OUTPUT       | Name of the CSV file in output
 
 # Example
 
